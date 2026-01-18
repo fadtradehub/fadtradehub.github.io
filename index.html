@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+  <!-- sweetalert2 css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.css">
+  
+  <!-- my css -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Website FAD TRAD HUB</title>
+</head>
+<body>
+
+  <!-- navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">FAD TRADE <span>HUB</span></a>
+    <div class="navbar-list-group">
+      <a href="#home" class="navbar-list">Home</a>
+      <a href="#about" class="navbar-list">Tentang Kami</a>
+      <a href="#product" class="navbar-list">Jasa</a>
+      <a href="#contact" class="navbar-list">Kontak</a>
+    </div>
+    <div class="navbar-icon">
+      <i data-feather="search" class="icon btn-modal" id="search" data-modal="searchModal"></i>
+      <i data-feather="shopping-cart" class="icon btn-modal" id="shopping-cart" data-modal="tableModal"></i>
+      <i data-feather="menu" class="icon" id="hamburger"></i>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  
+  <!-- section hero start -->
+  <section class="hero" id="home">
+    <div class="content">
+      <h1>Bingung Export? Ke FAD TRADE <span>HUB</span></h1><h1>Aja</h1>
+      <P> Memudahkan anda yang ingin menjangkau pasar global</P>
+      <a href="#product" class="button">LIHAT JASA</a>
+    </div>
+  </section>
+  <!-- section hero end -->
+  
+  <!-- section about start -->
+  <section class="about" id="about">
+    <h2>Tentang <span>Kami</span></h2>
+    <h1>FAD TRADE HUB hadir sebagai sebagai mitra logistik dan perdagangan global yang terintegrasi, menyediakan solusi pengiriman menyeluruh melalui jalur udara, laut, dan darat untuk memastikan barang anda sampai ke tujuan dengan aman dan tepat waktu. Kami berkomitmen untuk menyederhanakan proses ekspor-import yang kompleks melalui pelayanan yang transparan, jaringan internasional yang luas, serta dukungan penuh bagi para pelaku bisnis dalam menjangkau pasar global secara lebih efisien dan kompetitif</h1>
+
+    <div class="row">
+      <div class="image-wrapper">
+        <img src="images/about.png" width="100" alt="tentang kami" class="image">
+      </div>
+      <div class="content">
+        <h3>Kenapa Memilih Kami</h3>
+        <p>Karena FAD TRADE HUB menyediakan solusi eksport-import dan logistik terpadu melalui jalur darat, laut dan udara dengan dukungan keahlian profesional manajemen rantai pasok. Kami berkomitmen menghadirkan layanan yang aman, transparan, dan efesien untuk memperluas jangkauan bisnis Anda ke pasar global secara kompetitif</p>
+        <p></p>
+      </div>
+    </div>
+  </section>
+  <!-- section about end -->
+  
+  <!-- section menu start -->
+  <section class="product" id="product">
+    <div class="header">
+      <h2>Jasa <span>Kami</span></h2>
+      <p>Solusi logistik dan perdagangan global yang andal untuk bisnis</p>
+    </div>
+    <div class="card-container"></div>
+  </section>
+  <!-- section menu end -->
+  
+  <!-- section contact start -->
+  <section class="contact" id="contact">
+    <div class="header">
+      <h2>Kontak <span>Kami</span></h2>
+      <p>Silahkan isi formulir di bawah ini untuk mendapatkan penawaran harga atau informasi lebih lanjut mengenai layanan kami. Kami akan segera Menghubungi anda untuk mendiskusikan kebutuhan pengiriman anda</p>
+    </div>
+    <div class="row">
+      <div class="image-wrapper">
+        <img src="images/contact.jpg" alt="kontak kami" class="image">
+      </div>
+      <div class="form-wrapper">
+        <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="60628023-d232-4e9f-b2e0-a3d9cb7ac5c3">
+  <div class="form form-group">
+<label for="nama" class="label">Nama Lengkap</label>
+    <input type="text" name="nama" class="input input-nama" placeholder="Nama Lengkap" required>
+  </div>
+   <div class="form form-group">
+<label for="email" class="label">Email</label>
+    <input type="email" name="email" class="input input-email" placeholder="Email" required>
+    </div>
+    <div class="form form-group">
+<label for="phone" class="label">No Telpon</label>
+ <input type="phone" name="phone" class="input input-phone" placeholder="No Telpon" required>
+    </div>
+    <div class="form form-group">
+<label for="message" class="label">Pesan</label>
+    <textarea name="message" class="input input-massage" placeholder="Pesan"></textarea>
+    </div>
+    <button type="submit" class="button btn-submit">Submit</button>
+  </div>
+</form>
+      </div>
+    </div>
+  </section>
+  <!-- section contact end -->
+  
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="wrapper">
+      <a href="https://instagram.com/mfdhilftrmn"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/fadtradehub"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/6285182605612"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:fadtradehub@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="wrapper">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#product">Jasa Kami</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <span>created by <a href="https://github.com/fadtradehub" target="_blank">FAD TRADE HUB</a> | © 2026</span>
+  </footer>
+  <!-- footer end -->
+  
+  <!-- search input modal start -->
+  <div class="modal" data-id="searchModal">
+    <div class="modal-header">
+      <h3>Search Modal</h3>
+      <i data-feather="x-circle" class="btn-modal-close"></i>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <input type="text" class="input search-input" placeholder="ketikkan nama produk ...">
+      </div>
+      <!-- product container start -->
+      <div class="product-container"></div>
+      <!-- product container end -->
+    </div>
+  </div>
+  <!-- search input modal end -->
+  
+  <!-- shopping cart modal start -->
+  <div class="modal" data-id="tableModal">
+    <div class="modal-header">
+      <h3>Shopping Cart Modal</h3>
+      <i data-feather="x-circle" class="btn-modal-close"></i>
+    </div>
+    <div class="modal-body">
+      <!-- list start -->
+      <div class="box-container"></div>
+      <!-- list end -->
+      <div class="wrapper">
+        <h4>Total Biaya : </h4>
+        <span class="price">0</span>
+      </div>
+      <button class="button button-checkout">Checkout</button>
+    </div>
+  </div>
+  <!-- shopping cart modal end -->
+  
+
+  
+  <!-- feather icon -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="js/icon.js"></script>
+  
+  <!-- sweetalert2 js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.js"></script>
+  
+  <!-- my javascript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
